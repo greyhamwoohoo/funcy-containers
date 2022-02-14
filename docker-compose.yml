@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+   funcypython:
+     image: mcr.microsoft.com/azure-functions/python:3.0-python3.8-core-tools
+     volumes:
+     - .:/workspace:cached
+     command: /workspace/scripts/funcy-python-initialize.sh
+     ports:
+     - 7071:7071
