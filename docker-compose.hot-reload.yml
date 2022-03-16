@@ -1,0 +1,4 @@
+version: "3.8"
+services:
+   funcypython:
+     command: /workspace/scripts/funcy-python-start-hot-reload.sh
