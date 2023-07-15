@@ -53,13 +53,17 @@ docker-compose -f docker-compose.yml -f docker-compose.hot-reload.yml up
 Every time you save code changes, the function will automatically restart within the container. 
 
 ## Workflow: VsCode Remote-Containers (Recommended Workflow)
+This requires you to install the VsCode Extension 'azuretools.vscode-docker' on the host first. All future steps are within VsCode. 
+
 To start working in the container, from VsCode: 
 
 1. Press Ctrl+Shift+P to bring up the palette
-2. Select Open Folder...
+2. Select Dev Containers: Open Folder In Container...
 3. Select the root of this repository.
 
-You are now developing 'in' the container. Open up the Terminal (bash) to get a shell directly in the container. 
+You are now developing 'in' the container. If this is the first time running, you will be prompted by VsCode to 'Show Logs' - this will show the progress of containers being fetched and started.  
+
+Then: Open up the Terminal (bash) to get a shell directly in the container. 
 
 This provides an experience similar to developing on the host - except that all runtimes, debuggers and tools are running in containers. 
 
