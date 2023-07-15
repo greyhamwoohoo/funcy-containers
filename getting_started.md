@@ -1,3 +1,6 @@
+# NOTE: This is Microsoft generated documentation from when the function was created.
+
+
 ## Getting Started with Azure Function
 ### Last updated: March 8th 2021
 

@@ -19,11 +19,12 @@
 	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
 	"workspaceFolder": "/workspace",
 
-	// Set *default* container specific settings.json values on container create.
-	"settings": {},
-
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": ["ms-python.python", "ms-azuretools.vscode-azurefunctions", "ms-python.vscode-pylance"]
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": ["ms-python.python", "ms-azuretools.vscode-azurefunctions", "ms-python.vscode-pylance"]
+		}
+	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
