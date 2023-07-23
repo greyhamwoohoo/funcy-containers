@@ -4,14 +4,14 @@ Develop Azure Python functions using several workflows:
 | Workflow | Python is Installed | Function is Executed | F5/Debug Experience Supported | 
 | -------- | ------------------- | -------------------- | ----------------------- |
 | VsCode Remote-Containers | Container | Container | Yes |
-| Local development (host) | Host | Host | Yes |
+| Local development (host) - for reference | Host | Host | Yes |
 
 NOTE: The hot-reload workflow was removed but incorporated into the VsCode Remote-Containers workflow. 
 
 # Workflow: VsCode Remote-Containers
 The assumption for this workflow is:
 
-1. VsCode runs on the host
+1. VsCode runs on the Windows host
 2. Docker for Desktop is running on WSL2
 
 The following Visual Studio extensions must be installed first:
