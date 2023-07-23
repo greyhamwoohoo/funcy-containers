@@ -29,11 +29,11 @@ You are now developing 'in' the container.
 ### Check that VsCode recognised the Tasks
 If you see this error when you try to F5/Debug:
 
-![func-task-type-not-registered](docs/func-task-type-not-registered.png)
+![func-debug-error](docs/func-debug-error.png)
 
 ...or you see this error in the Output tab:
 
-![func-debug-error](docs/func-debug-error.png)
+![func-task-type-not-registered](docs/func-task-type-not-registered.png)
 
 ...you will need to Close the Remote Connection (Ctrl+Shift+P; Remote: Close Remote Connection) and then re-open the folder (Ctrl+Shift+P; Dev Containers: Reopen in Container). 
 
